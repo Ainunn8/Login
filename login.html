@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Binar Academy</title>
+    <title>Login - Hotspot BeStrong</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
 </head>
-<body>     
-    <div class="login-container">
-        <div class="login-header">
-            <img src="logo.png" alt="BeStrong Logo" class="logo">
+<body>
+    <div class="container">
+        <div class="block blue">
+            <div class="block yellow"></div>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
         </div>
+    </div>     
+    <div class="login-header">
+        <h5>Welcome to Universitas Lampung</h5>
+        <img src="logo.png" alt="BeStrong Logo" class="logo">
+    </div>
+    <div class="login-container">
         <div class="login-form">
-            <h2>Login</h2>
-            <h3>SSO</h3>
+            <h2>Login SSO</h2>
             <form id="loginForm">
                 <div class="input-group">
                     <label for="email">Username</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="input-group">
-                    <input type="password" name="" id="password" required="" />
-                    <label>Password</label>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
                     <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
-
                     <a href="#" class="forgot-password">Lupa Password?</a>
-                    <div class="show-password">
-                        <input type="checkbox" id="show-password-checkbox">
-                        <label for="show-password-checkbox">Show Password</label>
-                    </div>
                 </div>
                 <button type="submit" class="login-button">Login</button>
                 <div class="signup-link">
-                    Belum memiliki akun? <a href="#">Daftar di sini</a>
+                    Bantuan <a href="#">(Helpdesk)</a>
                 </div>
             </form>
         </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
