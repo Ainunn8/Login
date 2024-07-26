@@ -6,6 +6,6 @@
     <title>Hotspot BeStrong</title>
 </head>
 <body>
-<a href="login.html"></a>
+<a href="./login.html"></a>
 </body>
 </html>
